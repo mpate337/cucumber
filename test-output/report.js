@@ -28,14 +28,14 @@ formatter.match({
   "location": "SearchSteps.user_on_walmart_homepage()"
 });
 formatter.result({
-  "duration": 12127836001,
+  "duration": 12023765901,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSteps.search_product()"
 });
 formatter.result({
-  "duration": 8597600500,
+  "duration": 9722670099,
   "status": "passed"
 });
 });

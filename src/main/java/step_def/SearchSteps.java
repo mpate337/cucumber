@@ -27,6 +27,7 @@ public class SearchSteps {
 		
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/div/div[1]/div[2]/form/div/button[2]")).click();
 		
+		System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[3]/div/div/div/div/div[7]/div[1]/div/div[1]")).getText());
 		Assert.assertEquals(true, driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[3]/div/div/div/div/div[7]/div[1]/div/div[1]")).isDisplayed());
 	}
 }
