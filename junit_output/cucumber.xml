@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.725437">
+    <testcase classname="Walmart search of a product" name="Walmart search result should show number of total products" time="20.725437">
+        <system-out>
+            <![CDATA[Given user is on walmart homepage...........................................passed
+When user search for a product..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

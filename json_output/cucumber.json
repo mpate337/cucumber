@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Walmart search result should show number of total products",
+        "description": "",
+        "id": "walmart-search-of-a-product;walmart-search-result-should-show-number-of-total-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12127836001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on walmart homepage",
+            "match": {
+              "location": "SearchSteps.user_on_walmart_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8597600500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for a product",
+            "match": {
+              "location": "SearchSteps.search_product()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Walmart search of a product",
+    "description": "",
+    "id": "walmart-search-of-a-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/marmi/eclipse-workspace/Cucumber/src/main/java/Features/search.feature"
+  }
+]
